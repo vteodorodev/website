@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+:root {
+  --main-bg-color: #fff8e7;
+  --white-color: #fefefe;
+  --black-color: #0f0f0f;
+  --dark-blue-color: #0f0f0f;
+}
