@@ -71,3 +71,21 @@ header {
   margin: 1rem 0;
   padding: 2px;
 }
+
+.main-container {
+  padding: 2rem 5rem;
+}
+
+section {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+}
+
+.content h5:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.content p {
+  line-height: 1.75rem;
+  text-align: justify;
+}

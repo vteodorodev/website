@@ -25,6 +25,10 @@ body {
     font-size: 0.75rem;
   }
 
+  nav {
+    display: none;
+  }
+
   .avatar img {
     object-fit: cover;
     width: 30vw;
@@ -33,5 +37,9 @@ body {
     border-radius: 50%;
     margin: 1rem 0;
     padding: 1px;
+  }
+
+  .main-container {
+    padding: 1rem 2rem;
   }
 }
