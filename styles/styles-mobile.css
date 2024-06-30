@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+:root {
+  --main-bg-color: #fff8e7;
+  --white-color: #fefefe;
+  --black-color: #0f0f0f;
+}
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: var(--main-bg-color);
+}
+
+@media only screen and (max-device-width: 600px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.75rem;
+  }
+
+  .avatar img {
+    object-fit: cover;
+    width: 30vw;
+    height: 30vw;
+    border: 2px solid pink;
+    border-radius: 50%;
+    margin: 1rem 0;
+    padding: 1px;
+  }
+}
