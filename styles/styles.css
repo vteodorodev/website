@@ -81,13 +81,13 @@ header {
   padding: 2rem 5rem;
 } */
 
-/* section {
-  margin-top: 1rem;
-  padding-top: 0.5rem;
-} */
+section {
+  overflow: hidden;
+}
 
 .section-wrapper {
   padding: 5rem;
+  transform: translateX(-100%);
 }
 
 img#about-avatar {

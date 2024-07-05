@@ -19,3 +19,25 @@
 .fade-in {
   animation: fadeIn 1s ease both;
 }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slideIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Standard syntax */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.slide-in {
+  animation: slideIn 0.8s ease both;
+}
