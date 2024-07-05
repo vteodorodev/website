@@ -12,18 +12,21 @@
     <link rel="stylesheet" href="styles/styles-mobile.css" />
     <link rel="stylesheet" href="styles/animations.css" />
     <link rel="stylesheet" href="styles/globals.css" />
+    <link rel="stylesheet" href="styles/typography.css" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
       rel="stylesheet"
     />
 
+    <script src="scrips/scripts.js"></script>
+
     <title>Vasco Duarte</title>
   </head>
   <body>
     <nav class="">
       <a href="#about">About Me</a>
-      <a href="#portfolio">Portfolio</a>
+      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
       <a href="#resume">Resume</a>
     </nav>
@@ -38,10 +41,37 @@
       <h5>Mobile and Web Frontend Developer</h5>
     </header>
 
-    <div class="main-container">
-      <section class="row" id="about">
-        <h2 class="col-md-3">About Me</h2>
-        <div class="content col-md-9">
+    <div class="">
+      <section class="" id="about">
+        <div class="section-wrapper">
+          <h2 class="">About Me</h2>
+          <div class="row">
+            <div class="col avatar">
+              <img
+                src="resources/avatar.jpg"
+                alt="photo of myself facing the camera, smiling and wearing a blue shirt"
+                id="about-avatar"
+              />
+            </div>
+            <div class="col">
+              <h3>Who am I?</h3>
+              <p>
+                My name is Vasco Duarte and I'm a 35 year old mobile and web frontend developer from
+                Lisbon, specializing in React Native and ReactJS.
+              </p>
+
+              <p>
+                My background is in Biomedical Engineering and I specialized in Signal Processing
+                and Data Science. I love the intersection between software engineering and medicine,
+                which informed my current career path.
+              </p>
+
+              <a href="">Learn more about me...</a>
+            </div>
+          </div>
+        </div>
+
+        <!--         <div class="">
           <h5>Who are you?</h5>
           <p>
             My name is Vasco Duarte and I'm a 35 year old mobile and web frontend developer from
@@ -93,43 +123,78 @@
             learning new languages by myself, having successfully picked up Swedish in the past and
             I am contemplating learning Japanese in the near future.
           </p>
+        </div> -->
+      </section>
+
+      <section class="" id="education">
+        <div class="section-wrapper row">
+          <div class="col-md-4"><h3>Education</h3></div>
+          <div class="section-content col-md">
+            <ul>
+              <div>
+                <li>MSc in Biomedical Engineering</li>
+                <!--               <small>Specialized in Signal Processing and Machine learning</small>
+ -->
+                <small
+                  ><span class="fw-600">Instituto Superior Técnico</span
+                  ><!-- , Sep. 2019 - Dec.
+                2021 --></small
+                >
+              </div>
+              <div>
+                <li>BSc in Biomedical Engineering</li>
+                <small
+                  ><span class="fw-600">Instituto Superior Técnico</span
+                  ><!-- , Sep. 2016 - Jun. 2019 --></small
+                >
+              </div>
+              <div>
+                <li>Certification in iOS Development</li>
+                <small><span class="fw-600">Meta, Coursera</span></small>
+              </div>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section class="row" id="portfolio">
-        <h2 class="col-md-3">Portfolio</h2>
-        <div class="content col-md-9">
-          <p>To be added</p>
-        </div>
-      </section>
+      <section id="work">
+        <div class="section-wrapper row">
+          <div class="col-md-4">
+            <h3>Work Experience</h3>
+          </div>
+          <div class="section-content col-md">
+            <ul>
+              <div>
+                <li>
+                  Mobile and Web Frontend Software Developer at <b>Kinetikos Health</b>, May 2022 -
+                  Present
+                </li>
+                <small>Technologies: ReactJS, React Native, Swift, Java, Javascript</small>
+              </div>
+              <div>
+                <li>Researcher at <b>Instituto de Sistemas e Robótica (ISR)</b>, 2020-2022</li>
+                <small>Field of Research: Mental health technologies</small>
+                <small>Technologies: Python, Flutter, Android, ReactJS, React Native, GIT</small>
+              </div>
 
-      <section class="row" id="contact">
-        <h2 class="col-md-3">Contact</h2>
-        <div class="content col-md-9">
-          <p>
-            Ipsum veritatis expedita velit doloremque soluta ipsum. Recusandae numquam est sed
-            officiis. Quasi labore nulla ad recusandae et consequuntur ducimus sit. Consectetur
-            iusto quo placeat facere nam nobis fugiat. Esse aliquid voluptatem veritatis ea in et.
-            Reprehenderit alias non eaque asperiores dolor molestias. Iste magnam veritatis delectus
-            saepe architecto. Placeat delectus provident officiis vero ipsa. Cupiditate non qui rem
-            ut. Quos soluta quam et fugiat saepe consequatur ratione. Repudiandae nobis et eveniet
-            dolores est. Eos quia molestiae quaerat sed voluptatibus quo dolore.
-          </p>
-        </div>
-      </section>
+              <div>
+                <li>
+                  Assistant Professor at <b>Instituto de Superior Técnico (IST)</b>, 2020-2022
+                </li>
+                <small
+                  >Courses: Control Theory in Bioengineering, Introduction to Signal Processing and
+                  Medical Imaging
+                </small>
+              </div>
 
-      <section class="row" id="resume">
-        <h2 class="col-md-3">Resume</h2>
-        <div class="content col-md-9">
-          <p>
-            Ipsum veritatis expedita velit doloremque soluta ipsum. Recusandae numquam est sed
-            officiis. Quasi labore nulla ad recusandae et consequuntur ducimus sit. Consectetur
-            iusto quo placeat facere nam nobis fugiat. Esse aliquid voluptatem veritatis ea in et.
-            Reprehenderit alias non eaque asperiores dolor molestias. Iste magnam veritatis delectus
-            saepe architecto. Placeat delectus provident officiis vero ipsa. Cupiditate non qui rem
-            ut. Quos soluta quam et fugiat saepe consequatur ratione. Repudiandae nobis et eveniet
-            dolores est. Eos quia molestiae quaerat sed voluptatibus quo dolore.
-          </p>
+              <!--               <li>Development and maintenance of www.jcsaramago.com website</li>
+              <small>Technologies: HTML, CSS, JavaScript, Django/Python, GIT</small>
+              <small
+                ><span style="font-weight: 600">J C Saramago, Lda.</span>, Jun. 2018 - present
+                (occasional)</small
+              > -->
+            </ul>
+          </div>
         </div>
       </section>
     </div>

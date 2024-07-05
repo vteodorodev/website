@@ -7,8 +7,9 @@
 }
 
 :root {
-  --main-bg-color: #fff8e7;
+  --main-bg-color: #f1f1f1;
   --white-color: #fefefe;
   --black-color: #0f0f0f;
   --dark-blue-color: #0f0f0f;
+  --grey-color: lightgrey;
 }
