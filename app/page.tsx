@@ -12,6 +12,8 @@ export default function Home() {
         src={avatar}
         alt="photo of me smiling at a camera"
         className="hero-image"
+        width={300}
+        height={300}
       />
       <div className="intro-text">Learn more about me and my work</div>
     </>
