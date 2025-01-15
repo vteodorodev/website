@@ -58,7 +58,7 @@ export default function AboutPage() {
           At the risk of sounding derivative, I enjoy working out at the gym and
           gaming; I both activities incredibly relaxing. In the past, I used to
           do a lot of gardening, but regretably, I don't have much time
-          nowadays. Still, I make sure my plants are well wattered and happy!
+          nowadays. Still, I make sure my plants are well watered and happy!
         </p>
       </section>
     </>
