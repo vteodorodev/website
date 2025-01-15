@@ -15,7 +15,6 @@
 body {
   color: var(--black);
   background-color: #faf5ee;
-  background-image: url("../public/img-noise-361x370.png");
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

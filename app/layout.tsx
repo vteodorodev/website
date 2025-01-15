@@ -1,6 +1,8 @@
-import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/header';
+
+import NoiseBackground from '@/public/img-noise-361x370.png';
+import Image from 'next/image';
 
 //TODO: Add description
 export const metadata = {
@@ -15,7 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      {/* TODO: Find way to put background in css. NextJS isn't locating the file */}
+      <body style={{ backgroundImage: `url(${NoiseBackground.src})` }}>
         <Header />
         <main>{children}</main>
         {/* <footer>© 2025 Vasco Teodoro • Built with NextJS</footer> */}
