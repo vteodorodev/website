@@ -1,11 +1,6 @@
 import avatar from '@/public/20230718_085228.jpg';
 import Image from 'next/image';
 
-//TODO: Add description
-export const metadata = {
-  title: 'Vasco Teodoro',
-};
-
 export default function Home() {
   return (
     <>
