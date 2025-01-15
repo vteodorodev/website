@@ -43,18 +43,20 @@ main {
   -ms-overflow-style: none; /* IE and Edge */
 }
 
+/* HEADER */
+
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 10px 0; */
+  padding: 10px 0;
 }
 
 @media only screen and (min-width: 768px) {
   .header {
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 10px 20px;
   }
 }
 
@@ -83,7 +85,6 @@ main {
 
 .header__nav ul a.active {
   color: var(--gray);
-  text-decoration: none !important;
 }
 
 /* PAGE */
@@ -170,13 +171,17 @@ footer {
 }
 
 .slide-fade-right {
-  animation: fadein 1.2s forwards ease-in-out;
+  animation: fadein 1.2s forwards ease-out;
 }
 
-.delay-8 {
+.delay-6 {
   animation-delay: 0.6s;
 }
 
-.delay-16 {
+.delay-12 {
   animation-delay: 1.2s;
+}
+
+.delay-18 {
+  animation-delay: 1.8s;
 }

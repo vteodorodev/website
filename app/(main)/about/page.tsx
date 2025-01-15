@@ -10,7 +10,7 @@ export default function AboutPage() {
           signal processing and machine learning.
         </p>
       </section>
-      <section className="about-section slide-fade-right delay-8">
+      <section className="about-section slide-fade-right delay-6">
         <h2>How did you get into frontend development?</h2>
         <p>
           After I graduated, I started doing research on the topic of clinical
@@ -41,7 +41,18 @@ export default function AboutPage() {
           and ReactJS, alongside similar framrworks.
         </p>
       </section>
-      <section className="about-section slide-fade-right delay-16">
+      <section className="about-section slide-fade-right delay-12">
+        <h2>Do you code in any other languages or frameworks?</h2>
+        <p>
+          Besides Javascript, Dart and Java, which I've used for frontend
+          development, I also know Python and Swift.
+        </p>
+        <p>
+          I'm also getting more into node backend development and databases, so
+          I can potentially do fullstack development if the need arises
+        </p>
+      </section>
+      <section className="about-section slide-fade-right delay-18">
         <h2>What else do you like to do?</h2>
         <p>
           At the risk of sounding derivative, I enjoy working out at the gym and
