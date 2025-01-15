@@ -17,7 +17,7 @@ export default function RootLayout({
       <body>
         <Header />
         <main>{children}</main>
-        <footer>© 2025 Vasco Teodoro • Built with NextJS</footer>
+        {/* <footer>© 2025 Vasco Teodoro • Built with NextJS</footer> */}
       </body>
     </html>
   );
