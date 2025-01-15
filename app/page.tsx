@@ -14,6 +14,8 @@ export default function Home() {
         className="hero-image"
         width={300}
         height={300}
+        priority
+        loading="eager"
       />
       <div className="intro-text">Learn more about me and my work</div>
     </>
