@@ -10,6 +10,7 @@
   --font-size-md: clamp(1.25rem, 1.162rem + 0.3756vw, 1.5rem);
   --font-size-lg: clamp(1.5rem, 1.3239rem + 0.7512vw, 2rem);
   --font-size-xl: clamp(2.5rem, 2.2359rem + 1.1268vw, 3.25rem);
+  --border-radius: 6px;
 }
 
 body {
@@ -185,4 +186,73 @@ footer {
 
 .delay-18 {
   animation-delay: 1.8s;
+}
+
+/* Portfolio */
+
+.portfolio-section {
+  display: grid;
+  grid-template-areas:
+    "name"
+    "description"
+    "image"
+    "link";
+  padding: 1.5rem 0;
+}
+
+.portfolio-name {
+  grid-area: name;
+}
+
+.portfolio-description {
+  grid-area: description;
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolio-section {
+    display: grid;
+    grid-template-areas:
+      "image name"
+      "image description"
+      "image ."
+      "image ."
+      "image ."
+      "image ."
+      "image link";
+  }
+
+  .portfolio-section:not(:last-child) {
+    border-bottom: 1px solid var(--gray);
+  }
+
+  .portfolio-section .portfolio-image-container {
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+  }
+}
+
+.portfolio-section .portfolio-image-container {
+  position: relative;
+  height: 15rem;
+  width: 15rem;
+  grid-area: image;
+  margin: 0 auto;
+}
+
+.portfolio-section .portfolio-image-container img {
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  width: 100%;
+}
+
+.portfolio-link {
+  font-size: var(--font-size-sm);
+  grid-area: link;
+}
+
+.portfolio-link a {
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+  font-weight: 600;
 }
